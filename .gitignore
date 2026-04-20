@@ -1,0 +1,26 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore any .tfvars files with secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore variables that might contain sensitive info
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .terraform directory
+.terraform/
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# conductor
+conductor

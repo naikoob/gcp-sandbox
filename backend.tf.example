@@ -1,0 +1,9 @@
+# This is a template for the remote backend configuration.
+# Once the GCS bucket is created, copy this to backend.tf and fill in the bucket name.
+
+# terraform {
+#   backend "gcs" {
+#     bucket = "YOUR_BUCKET_NAME"
+#     prefix = "terraform/state"
+#   }
+# }
