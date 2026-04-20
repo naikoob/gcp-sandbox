@@ -62,7 +62,7 @@ resource "google_kms_crypto_key" "key" {
   purpose  = "ENCRYPT_DECRYPT"
 
   lifecycle {
-    prevent_destroy = false 
+    prevent_destroy = false
   }
 }
 
