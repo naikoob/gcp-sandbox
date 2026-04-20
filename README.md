@@ -1,6 +1,8 @@
 # Google Cloud Infrastructure
 
-This repository contains the Terraform configuration to provision and manage the Google Cloud Platform (GCP) infrastructure for the **Vital** application, part of the AI Incubator.
+This repository contains the Terraform configuration to provision and manage the Google Cloud Platform (GCP) infrastructure for demo/sandbox purposes.
+
+
 
 ## Overview
 
